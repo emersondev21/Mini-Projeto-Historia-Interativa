@@ -1,0 +1,322 @@
+CAPITULO_COM_IMAGEM
+ID
+CupHead do Paraguai
+PERSONAGENS
+Protagonista
+Antagonista
+TEXTO
+Protagonista
+, vive em um mundo fantástico onde todos os seres possuem formas de objetos que em nosso mundo, são inanimados. Nosso amigo 
+Protagonista, possui a forma de uma Xícara, já seu irmão, de um Caneco. E estes são o nome deles, Xicrinha e Caneco. Certo dia, os dois foram se divertir em um parque de diversões. O que eles não sabiam, é que se eles perdessem em algum jogo, sua alma seria roubada e absorvida para o 
+Antagonista
+. 
+Protagonista
+, viciado em jogos, estava se dando bem em todos os jogos e burlando as armadilhas do 
+Antagonista
+, que estava se enfurecendo pelo seu fracasso. Sendo assim, ele decide ir pessoalmente roubar sua alma. Contudo, chegando lá, 
+Protagonistase nega a entregar sua alma, então 
+Antagonista
+ sequestra seu irmão Caneco e o leva para o inferno, e diz que para recuperá-lo, 
+Protagonista
+ terá que descer até o inferno e lutar com ele pessoalmente. Durante cada fase, vc terá escolhas destacadas ([exemplo]), do que fazer na presença do inimigo. Escolha com cuidado, pois cada escolha sera decisiva para o andamento da historia e para o destino do nosso amigo 
+Protagonista
+e seu irmão. Você ajudará ele nesta missão?
+VARIACOES
+0
+0
+IMAGEM                            
+      &&&&&&&&&                                                                 
+    &&&&         &&&    &&& &&&&&&&&   &&&   &&  &&&&&&     &&&     &&&&&&&&     
+   &&&           &&&    &&& &&&    &&& &&&   &&  &&&       &&&&&    &&&&&&&&&  
+   &&&           &&&    &&& &&&    &&& &&&&&&&&& &&&&&&   &&  &&&   &&&    &&&  
+   &&&&          &&&    &&& &&&&&&&&   &&    &&  &&&     &&&&&&&&&  &&&    &&&  
+     &&&&&&&&&&   &&&&&&&&  &&&        &&    &&  &&&&&& &&&     &&& &&&&&&&&&        
+                                                                                         
+                            8888888b.   .d88888b.                                        
+                            888  "Y88b d88P" "Y88b                                       
+                            888    888 888     888                                                                       
+                            888    888 888     888                                       
+                            888  .d88P Y88b. .d88P                                       
+                            8888888P"   "Y88888P"                                        
+                                                                                         
+8888888b.     888888 8888888b.        888888  .888888.  888     888     8888888 8888888     
+888   888    888 888 888    888     8888 888 888        888     888    8888 888   888     
+888888888  8888  888 88888888      8888  888 888  88888 888     888   8888  888   888          
+888      d8888888888 888  8888   88888888888 888    888  88b. .d88   8888888888   888     
+888     8888     888 888   8888 8888     888  88888888    8888888   888     888 8888888   
+IMAGEM_FIM
+
+CAPITULO
+ID
+Palhacada hein?!
+PERSONAGENS
+Protagonista
+Antagonista
+TEXTO
+Ao 
+Protagonista
+ descer até o inferno, ele encontra o capanga do 
+ Antagonista
+ , o Mr. Dice. O mesmo, fala que para chegar até seu chefe, terá que duelar com ele ou dar meia volta, voltar para casa e esquecer o irmão para sempre. O que ele irá fazer?
+VARIACOES
+0
+0
+
+CAPITULO
+ID
+Risada Mortal
+PERSONAGENS
+Protagonista
+Antagonista
+TEXTO
+[Final 1] Sério que você fez 
+Protagonista
+ abandonar seu irmão para ser torturado pela eternidade pelo 
+Antagonista
+?!
+VARIACOES
+-100
+0
+
+CAPITULO
+ID
+Lucille, e voce?!
+PERSONAGENS
+Protagonista
+Antagonista
+TEXTO
+Protagonista
+ conseguiu derrotar Mr. Dice! Só que agora você seu desafio final o aguarda: o 
+Antagonista
+. Proximo aos seus pés, se encontra um bastão de beisebol envolto por arame farpado (Qualquer semelhança é mera coincidência!). Sendo assim, 
+Protagonista
+ pensa: Com certeza poderei usar este objeto com formato sugestivo para derrotar este inimigo! Por outro lado, eu posso também fugir... Ou de repente posso esperar o 
+ Antagonista
+soltar um poderzinho em mim, e então eu jogar de volta pra ele, refletindo o feitiço com este espelho que apareceu do nada no meu bolso graças ao roteiro preguiçoso dessa história que tenta ao máximo favorecer o protagonista, que no caso sou eu.'"
+VARIACOES
++100
+0
+
+CAPITULO
+ID
+Tem uma cobra na minha... luva
+PERSONAGENS
+Protagonista
+Antagonista
+TEXTO
+[Final 2] Ao pegar o bastão, 
+Antagonista
+ transformou-o em uma cobra super venenosa de espécie desconhecida pelo autor desta história, que picou 
+ Protagonista
+, que, com o poder do veneno, caiu duro e morreu"
+VARIACOES
+-9999
+0
+
+CAPITULO
+ID
+Se correr o bicho pega
+PERSONAGENS
+Protagonista
+Antagonista
+TEXTO
+[Final 3] 
+Protagonista
+ tenta fugir, mas o 
+Antagonista
+ conseguiu te alcançar e prende-lo em uma prisão mágica. !!!FIM DE JOGO!!!
+VARIACOES
+-1000
++100
+
+CAPITULO_COM_IMAGEM
+ID
+A xícara que enganou o Diabo
+PERSONAGENS
+Protagonista
+Antagonista
+TEXTO
+[Final 4] Parabens! Você ajudou 
+Protagonista
+ a derrotar 
+Antagonista
+ refletindo o feitiço de transmutação soltado pelo mesmo, fazendo o feitiço atingi-lo e transforma-lo em um pato Bolsominion! (Tava com sono e não pensei em coisa melhor...). Voltou para casa com seu irmão são e salvo.
+VARIACOES
++1000
+-1000000
+IMAGEM
+
+  888     888 8888888 88888888888 .d88888b.  8888888b.  8888888        d8888 
+  888     888   888       888    d88P" "Y88b 888   Y88b   888         d88888 
+  888     888   888       888    888     888 888    888   888        d88P888 
+  Y88b   d88P   888       888    888     888 888   d88P   888       d88P 888 
+   Y88b d88P    888       888    888     888 8888888P"    888      d88P  888 
+    Y88o88P     888       888    888     888 888 T88b     888     d88P   888 
+     Y888P      888       888    Y88b. .d88P 888  T88b    888    d8888888888 
+      Y8P     8888888     888     "Y88888P"  888   T88b 8888888 d88P     888 
+                                                                           
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ .(,        .* @@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*(@&,&&&((((((*& @@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&./*(&&*&&*(((((*% @@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@  @@@@@@@   &@@&%/ .#@@@@@@@@@@ ((((((/ #*////*,. @@@@@@@@@@@@@@@@@@
+@@@@@@@@@@% @@@@@@@#   &@@@@@@@@@@@@#.*@#,(*/((((/ (@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@ &@@@@@@@@&  .@@@@@@@@@@@@@*      %&@*/ %@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@ (@@@@@@@%    .@@@@@@@@@@@@(      ,&%* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@ %%@@@@@,((((/&&(@@@@@@@@@@@@,     &&&&&% @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@ &%*@@@@/*/((,&&&,@@@@@@@@@&      &&&&&&& @@@@@@@@@@@%   &@@@@@@@@@@@@@@@
+@@@@@@@ &&&&&&&&&&%&&&&&&&%,(&@@@@&   ,&&&&&&&&% &( @@@@@@ &@@@@ &@@@@@@@@@@@@@@
+@@@@@@@& &&&&&&(         ,((#(,      .&&&&&&&&& @  & &@@@ @@@@@@ @@@@@@@@@@@@@@@
+@@@@@@@@@ &&&&%                        /&&&&&& @   && @@  @@@@@ @@@@@% @@@@@@@@@
+@@@@@@@@@@ %&&&%      .((((((/,/(((//*/&&&&&#/@   &&&#@& @@@@@@  @@@@@@ @@@@@@@@
+@@@@@@@@@@@@# %&&&%,.((((((((((((*.(&&&&&&% **#%&&% @@@% @@@@ @@@@@@@&& &@@@@@@@
+@@@@@@@@@@@@@@@@# (&&&&&&&&&&&&&&&&&&%%/           %@@@# @@@@& &@@@&@@@@@ @@@@@@
+@@@@@@@@@@@@@@@@@@&/                               &@@@@ @@@@& &@@@@@@@& @@@@@@@
+@@@@@@@@@@@@@@@(                                    @@@@@ @@@@@ @@@@@@@@ @@@@@@@
+@@@@@@@@@@@@@@                        %%@@@@@@@@@@@@.@@@@ @@@@  @@@@@@  @@@@@@@@
+@@@@@@@@@@@@@       %@@&                &@@@@@@@@@@@@&@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@/     /@&                   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@# %@& #                   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@ %%(@&                   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@ @&#@%                 (@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@#,.                   (@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@&/...,*****. ,(#%/@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@ %&&&.     %&&&& @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@ ,//*     .&&&&(@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@        *#(#(#/   .*((*./.@@       @@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@  (#########(#### . (###(##*(#(##(###   @@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@  ################ / ###################  @@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@& ################# / ##################(  @@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@    (######(#(#(/       ###(#########(//  @@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@&               @@@@                  @@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IMAGEM_FIM
+
+CAPITULO_COM_IMAGEM
+ID
+NÃO QUERO NÃO QUERO NÃO QUERO
+PERSONAGENS
+Protagonista
+Antagonista
+TEXTO
+Sem sua ajuda, 
+Protagonista
+ desceu até o inferno sozinho e não conseguiu salvar seu irmão. Condenando a si mesmo a ser torturado pela eternidade enquanto seu irmão Caneco apenas asiste. https://www.youtube.com/watch?v=d1wub4QFKkw
+VARIACOES
+0
+0
+IMAGEM                                                           
+                  ,  .*                                                         
+                @@@@@,.                                                         
+              @@@@@@@@@%                                                        
+             @@@@@@@@@@@@(                                                      
+              @@@@@@@@@@@%% ,                                                   
+                 @@@&(((((((.         /    ,#@%,       *&, .                    
+                   (((((((((((   .@@@@@@@@@@@@@@@@@@@@@@@@@@@                   
+                     .(((* /@@@@@@@@@@@%@@@@@@@@@(@@@@@@@@@@@@@*                
+                       @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%,              
+                   @@@@@@@@@@@@@@ /&@@ %@@@@@@@@@@ /&@@@ @@@@@@@*              
+                 @@@@@@@@@@@@@##@@@@@@@@@ @@@@@@@ @@@@@@@@ @@@@@@@              
+                 @@@@@@@@@@@@(@@@@@@@@@@@@ @@@@@ @@@@@@@@@@ @@@@@@@,            
+         . @@@@**@@@@@@@@@@@%@@@@@@@@@@@@@@ @@@ @@@@@@@@@@@@ @@@@@@             
+       .&@@@@@@ @@@@@@@@@@@@,@@@@@@@@ . @@@ @@@ @@.%@@@@@@@@ @@@@@@             
+       @@@@@    &@@@@@@@@@@@ @@@@@@@@*.. @@,@@@ @@.. @@@@@@@  @@@@@             
+       @@@      *@@@@@@@@@@@ ((((.@@@,. @@ @@@@ @@@&@@@@@@@@  @@@@@             
+     .@@@        @@@@@@@@@,(@&(((((((((#@ @@@@@@.%,#@%*((#(.(@@*@@@             
+      .@@        &@@@@@@@/(((((((.@&#&@&@@@@@@((((%@@%(((((((*#@@@@             
+       @@@ ,      @@@@@@@@,(((( @@@@@@@@@@@@ (((((((#( @@/((((%@@@.*            
+         @@@@%   . @@@@@@/((((%@@@@@@@@@@@@@/((((((((,@@@@((((.@@@              
+           @@@@@@@&.@@@@@,(((.@@@@&@@@@@@@@@%((((((((@@@@@((((.@@               
+                     @@@@*(((@@@/  @@@@@@.@@@@@@@@@@@@@@@@((((@@                
+                     .,@@#(((%@ .........  *@%#(.(@@@@@@@*(((@,                 
+                         @*(((@  //////............. @@@,((( .                  
+                            (((@////%@@#.//......... @,(( /(                    
+                            ((, ,(@@@@@@@@@@@@@@@@@@, ,(((                      
+                               .... ,*.      .******(((         , #%,           
+                         .@@@@ ....... *#/*..... ****@.        @@@@@@&          
+                       ,@@@@@@@ ................ **@@(.       @@@@@@@@@@@&,     
+                      @@@@@*@@@ ....................        .@@.@#@@@@@@@@@*    
+                    @@@@@@@@.@@ ...........***.  ....*    %@@@@@@% ,&@@@@@@     
+                   @@@@@@@@@@..@@@& ..........   .....   &@@@@@@@@@@@@@((*      
+                   &@@@@@@(@@@@@@.@@@,.. .*/*,.   ..... ..@@@ ,&@@@@@@@@/       
+                   *@@@@@@@@@@@@@ %@@@,/#(&(((((.  ....,@@@,@@@@@#&@@@@@        
+                    .#@@@@@@@@@@#@@@@@%/@##&@@#@(   ..  @@@ @@@@@@@&@@ .        
+                    .@&@@@@@@@*@@@@@@@   &@%@ @     . .@@@@@.@@@@@@             
+                      (@@.@@@@@@@@@@@     @ @          %@%@@@@@@,@              
+                          ,@@@(,(,                         (&#,.                
+                                                                                
+                                                                                
+IMAGEM_FIM
+
+ESCOLHA
+DE
+CupHead do Paraguai
+PARA
+Palhacada hein?!
+TEXTO DIGITADO
+s
+TEXTOMOSTRADO
+[s] Sim
+
+ESCOLHA
+DE
+Palhacada hein?!
+PARA
+Risada Mortal
+TEXTO DIGITADO
+fugir
+TEXTOMOSTRADO
+Dar meia volta e [fugir]
+
+ESCOLHA
+DE
+Palhacada hein?!
+PARA
+Lucille, e voce?!
+TEXTO DIGITADO
+porrada
+TEXTOMOSTRADO
+Descer a [porrada] no Mr. Dice
+
+ESCOLHA
+DE
+Lucille, e voce?!
+PARA
+Tem uma cobra na minha... luva
+TEXTO DIGITADO
+bastão
+TEXTOMOSTRADO
+Usar o [bastão] para espanca-lo
+
+ESCOLHA
+DE
+Lucille, e voce?!
+PARA
+Se correr o bicho pega
+TEXTO DIGITADO
+fugir
+TEXTOMOSTRADO
+Tentar [fugir] chorando como um bebezinho 
+
+ESCOLHA
+DE
+Lucille, e voce?!
+PARA
+A xícara que enganou o Diabo
+TEXTO DIGITADO
+espelho
+TEXTOMOSTRADO
+Usar o [espelho] para refletir a magia e jogá-la de volta
+
+ESCOLHA
+DE
+CupHead do Paraguai
+PARA
+NÃO QUERO NÃO QUERO NÃO QUERO
+TEXTO DIGITADO
+n
+TEXTOMOSTRADO
+[n] Não
+
