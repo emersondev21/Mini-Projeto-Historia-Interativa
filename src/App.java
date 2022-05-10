@@ -5,8 +5,6 @@ public class App
 {
         public static void main(String[] args) throws FileNotFoundException 
         {
-                
-                //oi, eu sou o goku
    
 //==================================================================================================================
 // Arquivo Personagens
