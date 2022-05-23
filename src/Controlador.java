@@ -45,10 +45,20 @@ public class Controlador {
 
             raiz = capitulos.get("CupHead do Paraguai");
 
-            mostrarTextoCapitulo(raiz.getTexto());
 
+            mostrarCapitulo(raiz);
             startBTN.setVisible(false);
     }
+
+
+
+    private void mostrarCapitulo (Capitulo capitulo){
+        
+        mostrarTextoCapitulo(capitulo.getTexto());
+        mostrarEscolhas(capitulo.getEscolhas());
+    }
+
+
 
     public void mostrarEscolhas(ArrayList<Escolha> escolhas){
         escolhasBar.setPadding(new Insets(10));
