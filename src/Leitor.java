@@ -6,10 +6,6 @@ import java.util.Scanner;
 public class Leitor 
 {
 
-//==================================================================================================================
-// Dicionário de Personagens
-//==================================================================================================================
-    
     // Mudei aqui
     public HashMap<String, Personagem> carregarPersonagens(String caminho)
     {
@@ -54,14 +50,13 @@ public class Leitor
         }
         return personagensMap;
     }
-
-//==================================================================================================================
-// Dicionário de Capitulos
-//==================================================================================================================
  
+    /**
+     * Adição dos parâmetros "Controlador controlador" em
+     * "carregarcapitulos()"
+     */
     public HashMap<String, Capitulo> carregarCapitulos(String caminho, 
-                                                Map<String, Personagem> personagens, 
-                                                Scanner escaneadorConsole)
+                                                       Map<String, Personagem> personagens)
     {
         HashMap<String, Capitulo> capitulos = new HashMap<String, Capitulo>();
         
@@ -78,30 +73,27 @@ public class Leitor
             {
                 
                 if (linha.equals("CAPITULO") || 
-                (linha.equals("CAPITULO_COM_IMAGEM")))
-                {    
+                (linha.equals("CAPITULO_COM_IMAGEM"))){    
 
                     escaneadorDoArquivo.nextLine();//ID
                     String idCap = escaneadorDoArquivo.nextLine();
 
-                    if (linha.equals("CAPITULO")) 
-                    {
-                        capitulos.put(idCap, new Capitulo(personagens, escaneadorConsole, escaneadorDoArquivo));
-                    }
-                    else if(linha.equals("CAPITULO_COM_IMAGEM"))
-                    {
-                        capitulos.put(idCap, new CapituloImagem(personagens, escaneadorConsole, escaneadorDoArquivo));
-                    }
+                    /**
+                     * Adição do controlador nas condicionais
+                     * Altera também nos construtores das classes raízes
+                     * "Capitulo" e "Capitulo imagem"
+                     */
 
-
-                    // System.out.println("Capitulo: " + idCap);
+                    if (linha.equals("CAPITULO")){
+                        capitulos.put(idCap, new Capitulo(personagens,  escaneadorDoArquivo));
+                    }
+                    else if(linha.equals("CAPITULO_COM_IMAGEM")){
+                        capitulos.put(idCap, new CapituloImagem(personagens, escaneadorDoArquivo));
+                    }
 
                     escaneadorDoArquivo.nextLine();
-
                 }
-                else if(linha.equals("ESCOLHA"))
-                {
-                    //Criei esse método para ler as escolhas (codigo dele lá em baixo tambem)
+                else if(linha.equals("ESCOLHA")){
                     lerEscolha(capitulos, escaneadorDoArquivo);
                 }
                 linha = escaneadorDoArquivo.nextLine();
@@ -111,18 +103,13 @@ public class Leitor
         
         catch(Exception e)
         {
-                e.printStackTrace();
+            e.printStackTrace();
         }
     return capitulos;
     }
 
-//==================================================================================================================
-// lerEscolha(); Usado para ler a parte das escolhas dos capitulos (CAPITULO ATUAL, ESCOLHAS E PRA ONDE ELAS LEVAM)
-//==================================================================================================================
-
         private void lerEscolha(HashMap<String, Capitulo> capitulos, 
-                                Scanner escaneadorArquivo) 
-        {
+                                Scanner escaneadorArquivo) {
         escaneadorArquivo.nextLine();// 'DE'
         String idCapituloDe = escaneadorArquivo.nextLine();
         
@@ -140,6 +127,4 @@ public class Leitor
         capitulos.get(idCapituloDe).getEscolhas().add(new Escolha(textoDigitado, textoMostrado, capitulos.get(idCapituloPara)));
 
     }
-    
-
 }

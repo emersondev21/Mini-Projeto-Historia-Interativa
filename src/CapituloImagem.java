@@ -6,15 +6,15 @@ public class CapituloImagem extends Capitulo{
 
     private String img;
 
+    /**
+     * Adição do parâmetro "Controlador controlador"
+     */
+    
     public CapituloImagem(
         Map<String, Personagem>personagens,
-        Scanner escaneadorDoConsole,
-        Scanner escaneadorDoArquivo)
-        {
-            // super(null, null, null, 0, 0, escaneadorDoConsole);
+        Scanner escaneadorDoArquivo) {
             super();
             this.lerCapitulo(personagens, escaneadorDoArquivo);
-            this.escaneador = escaneadorDoConsole;
             this.escolhas = new ArrayList<Escolha>();
         }
 
