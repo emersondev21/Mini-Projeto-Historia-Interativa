@@ -3,6 +3,7 @@ import java.util.Map;
 // import java.util.Scanner;
 
 import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.geometry.Insets;
 import javafx.scene.control.Button;
@@ -48,6 +49,7 @@ public class Controlador {
 
             mostrarCapitulo(raiz);
             startBTN.setVisible(false);
+
     }
 
 
@@ -61,11 +63,29 @@ public class Controlador {
 
 
     public void mostrarEscolhas(ArrayList<Escolha> escolhas){
+        escolhasBar.getButtons().clear();
+
         escolhasBar.setPadding(new Insets(10));
 
-        for(int i = 0; i < escolhas.size(); i++) {
+        for(int i = 0; i < escolhas.size(); i++) { 
+            //Cria os botões enquento existir escolhas
 
-            escolhasBar.getButtons().add(new Button(escolhas.get(i).getTextoMostrado()));
+            BotaoEscolha botao = new BotaoEscolha(escolhas.get(i)); 
+            botao.setOnAction(new EventHandler<ActionEvent>() { 
+            //Define o que acontece quando clica no botão
+
+                @Override
+                public void handle(ActionEvent event) {
+                    //Quando clica em uma escolha, 
+                    //redireciona para o cápitulo pre-definido como próximo
+                    
+                    System.out.println(botao.getText());
+
+                    mostrarCapitulo(botao.getEscolha().getProximo());
+
+                }
+            });
+            escolhasBar.getButtons().add(botao);
         
         }
         
