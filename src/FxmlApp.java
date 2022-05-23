@@ -5,8 +5,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class FxmlApp extends Application {
-        public static void main(String[] args) 
-        {
+        public static void main(String[] args) {
                 launch(args);
         }
 
@@ -16,6 +15,7 @@ public class FxmlApp extends Application {
                 Parent root = fxmlLoader.load();
                 Scene tela = new Scene(root);
 
+                primaryStage.setTitle("CUPHEAD DO PARAGUAY");
                 primaryStage.setScene(tela);
                 primaryStage.show();
          }

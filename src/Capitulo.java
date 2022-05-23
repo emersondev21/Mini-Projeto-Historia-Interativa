@@ -37,6 +37,10 @@ import java.util.Scanner;
             this.escolhas = new ArrayList<Escolha>();
         }
 
+        public String getTexto(){
+            return this.texto;
+        }
+
         protected void lerCapitulo(
             Map<String, Personagem> personagens,
             Scanner escaneador) {
@@ -119,9 +123,9 @@ import java.util.Scanner;
             return opcaoEscolhida;
         }
         
-                String getTexto() {
-                    return this.texto;
-                }
+                // String getTexto() {
+                //     return this.texto;
+                // }
         
                 ArrayList<Escolha> getEscolhas() {
                     return this.escolhas;

@@ -1,5 +1,8 @@
 import java.util.ArrayList;
+import java.util.Map;
+// import java.util.Scanner;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.geometry.Insets;
 import javafx.scene.control.Button;
@@ -7,6 +10,8 @@ import javafx.scene.control.ButtonBar;
 import javafx.scene.control.TextArea;
 
 public class Controlador {
+
+    private Capitulo raiz;
 
     @FXML
     private TextArea asciiCap;
@@ -28,13 +33,30 @@ public class Controlador {
     asciiCap.setText(imagem);
     }
 
+    @FXML
+    void iniciarHistoria(ActionEvent event) {
+        Leitor leitor = new Leitor();
+
+            //Carrega o dicionário de personagens
+            Map<String, Personagem> personagens = leitor.carregarPersonagens("rsc/Personagens.txt");
+
+            Map<String, Capitulo> capitulos = leitor.carregarCapitulos("rsc/Capitulos.txt", personagens);
+            //Carrega o dicionário de capitulos
+
+            raiz = capitulos.get("CupHead do Paraguai");
+
+            mostrarTextoCapitulo(raiz.getTexto());
+
+            startBTN.setVisible(false);
+    }
+
     public void mostrarEscolhas(ArrayList<Escolha> escolhas){
         escolhasBar.setPadding(new Insets(10));
 
         for(int i = 0; i < escolhas.size(); i++) {
 
             escolhasBar.getButtons().add(new Button(escolhas.get(i).getTextoMostrado()));
-            // System.out.println();
+        
         }
         
     }

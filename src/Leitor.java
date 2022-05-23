@@ -54,6 +54,7 @@ public class Leitor
     /**
      * Adição dos parâmetros "Controlador controlador" em
      * "carregarcapitulos()"
+     * @param escaneador
      */
     public HashMap<String, Capitulo> carregarCapitulos(String caminho, 
                                                        Map<String, Personagem> personagens)
@@ -85,7 +86,7 @@ public class Leitor
                      */
 
                     if (linha.equals("CAPITULO")){
-                        capitulos.put(idCap, new Capitulo(personagens,  escaneadorDoArquivo));
+                        capitulos.put(idCap, new Capitulo(personagens, escaneadorDoArquivo));
                     }
                     else if(linha.equals("CAPITULO_COM_IMAGEM")){
                         capitulos.put(idCap, new CapituloImagem(personagens, escaneadorDoArquivo));

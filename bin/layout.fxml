@@ -13,7 +13,7 @@
   <children>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="692.0" prefWidth="752.0" style="-fx-background-color: #f1c40f; -fx-background-image: C:\Users\srazr\Desktop\UFRPE\Java\MiniProjetoFX\rsc;" VBox.vgrow="ALWAYS">
          <children>
-            <TextArea fx:id="textoCap" layoutX="22.0" layoutY="121.0" prefHeight="239.0" prefWidth="651.0" wrapText="true">
+            <TextArea fx:id="textoCap" layoutX="22.0" layoutY="115.0" prefHeight="239.0" prefWidth="650.0" wrapText="true">
                <font>
                   <Font size="15.0" />
                </font>
@@ -28,13 +28,13 @@
                   <Image url="@../../../../../Downloads/VOC.png" />
                </image>
             </ImageView>
-            <TextArea fx:id="asciiCap" layoutX="47.0" layoutY="360.0" prefHeight="223.0" prefWidth="600.0" wrapText="true">
+            <TextArea fx:id="asciiCap" layoutX="24.0" layoutY="363.0" prefHeight="223.0" prefWidth="650.0" visible="false" wrapText="true">
                <font>
                   <Font size="20.0" />
                </font>
             </TextArea>
             <ButtonBar fx:id="escolhasBar" layoutX="247.0" layoutY="602.0" prefHeight="40.0" prefWidth="200.0" />
-            <Button fx:id="startBTN" layoutX="225.0" layoutY="562.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="245.0" text="START" textAlignment="CENTER">
+            <Button fx:id="startBTN" layoutX="225.0" layoutY="586.0" mnemonicParsing="false" onAction="#iniciarHistoria" prefHeight="42.0" prefWidth="245.0" text="START" textAlignment="CENTER">
                <font>
                   <Font name="Athena Regular" size="35.0" />
                </font>
