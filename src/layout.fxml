@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -14,11 +16,16 @@
   <children>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="692.0" prefWidth="752.0" style="-fx-background-color: #f1c40f;" VBox.vgrow="ALWAYS">
          <children>
-            <TextArea fx:id="textoCap" layoutX="22.0" layoutY="115.0" prefHeight="239.0" prefWidth="650.0" wrapText="true">
+            <TextArea fx:id="asciiCap" editable="false" layoutX="24.0" layoutY="363.0" prefHeight="223.0" prefWidth="650.0" visible="false" wrapText="true">
                <font>
-                  <Font size="15.0" />
+                  <Font size="20.0" />
                </font>
             </TextArea>
+            <Label fx:id="textoCap" alignment="TOP_RIGHT" contentDisplay="TOP" layoutX="24.0" layoutY="134.0" prefHeight="419.0" prefWidth="650.0" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Tw Cen MT" size="22.0" />
+               </font>
+            </Label>
             <ImageView fitHeight="124.0" fitWidth="361.0" layoutX="190.0" layoutY="-9.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../../../Downloads/download-removebg-preview%20(1).png" />
@@ -29,13 +36,11 @@
                   <Image url="@../../../../../Downloads/VOC.png" />
                </image>
             </ImageView>
-            <TextArea fx:id="asciiCap" layoutX="24.0" layoutY="363.0" prefHeight="223.0" prefWidth="650.0" visible="false" wrapText="true">
-               <font>
-                  <Font size="20.0" />
-               </font>
-            </TextArea>
-            <ButtonBar fx:id="escolhasBar" layoutX="19.0" layoutY="602.0" prefHeight="40.0" prefWidth="650.0" style="-fx-background-color: #f1c40f; -fx-border-color: #121212; -fx-border-width: 2;" />
-            <Button fx:id="startBTN" alignment="CENTER" layoutX="225.0" layoutY="556.0" mnemonicParsing="false" onAction="#iniciarHistoria" prefHeight="42.0" prefWidth="285.0" style="-fx-background-color: #f1c40f; -fx-border-width: 5; -fx-border-color: #121212;" text="START">
+            <ButtonBar fx:id="escolhasBar" layoutX="19.0" layoutY="602.0" prefHeight="40.0" prefWidth="650.0" style="-fx-background-color: #f1c40f;" styleClass="escolhasBar">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets></ButtonBar>
+            <Button fx:id="startBTN" alignment="CENTER" layoutX="225.0" layoutY="556.0" mnemonicParsing="false" onAction="#iniciarHistoria" prefHeight="42.0" prefWidth="285.0" style="-fx-background-color: #f1c40f; -fx-border-width: 5; -fx-border-color: #121212; -fx-border-style: dashed;" text="START">
                <font>
                   <Font name="Tw Cen MT" size="35.0" />
                </font>
@@ -43,6 +48,11 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
+            <Label fx:id="intro" alignment="TOP_LEFT" contentDisplay="CENTER" layoutX="24.0" layoutY="134.0" prefHeight="419.0" prefWidth="650.0" text="Xicrinha, vive em um mundo fantástico onde todos os seres possuem formas de objetos que em nosso mundo, são inanimados. Nosso amigo possui a forma de uma Xícara, já seu irmão, de um Caneco. E estes são o nome deles, Xicrinha e Caneco. Certo dia, os dois foram se divertir em um parque de diversões. O que eles não sabiam, é que se eles perdessem em algum jogo, sua alma seria roubada e absorvida para o Capeta. Xicrinha, viciado em jogos, estava se dando bem em todos os jogos e burlando as armadilhas do Capeta, que estava se enfurecendo pelo seu fracasso. Sendo assim, ele decide ir pessoalmente roubar sua alma. Contudo, chegando lá, Xicrinha se nega a entregar sua alma, então seu inimigo sequestra seu irmão Caneco e o leva para o inferno, e diz que para recuperá-lo, ele terá que descer até o inferno e lutar com ele pessoalmente. " textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Tw Cen MT" size="22.0" />
+               </font>
+            </Label>
          </children>
     </AnchorPane>
   </children>

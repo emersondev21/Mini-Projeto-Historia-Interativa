@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CHApp",
+            "request": "launch",
+            "mainClass": "CHApp",
+            "projectName": "MiniProjetoFX_b7a960d1"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"

@@ -5,20 +5,7 @@ PERSONAGENS
 Protagonista
 Antagonista
 TEXTO
-Protagonista
-, vive em um mundo fantástico onde todos os seres possuem formas de objetos que em nosso mundo, são inanimados. Nosso amigo 
-Protagonista, possui a forma de uma Xícara, já seu irmão, de um Caneco. E estes são o nome deles, Xicrinha e Caneco. Certo dia, os dois foram se divertir em um parque de diversões. O que eles não sabiam, é que se eles perdessem em algum jogo, sua alma seria roubada e absorvida para o 
-Antagonista
-. 
-Protagonista
-, viciado em jogos, estava se dando bem em todos os jogos e burlando as armadilhas do 
-Antagonista
-, que estava se enfurecendo pelo seu fracasso. Sendo assim, ele decide ir pessoalmente roubar sua alma. Contudo, chegando lá, 
-Protagonistase nega a entregar sua alma, então 
-Antagonista
- sequestra seu irmão Caneco e o leva para o inferno, e diz que para recuperá-lo, 
-Protagonista
- terá que descer até o inferno e lutar com ele pessoalmente. Durante cada fase, vc terá escolhas destacadas ([exemplo]), do que fazer na presença do inimigo. Escolha com cuidado, pois cada escolha sera decisiva para o andamento da historia e para o destino do nosso amigo 
+Durante cada fase, você terá escolhas destacadas ([exemplo]), do que fazer na presença do inimigo. Escolha com cuidado, pois cada escolha sera decisiva para o andamento da historia e para o destino do nosso amigo 
 Protagonista
  e seu irmão. Você ajudará ele nesta missão?
 VARIACOES
@@ -56,7 +43,7 @@ TEXTO
 Ao 
 Protagonista
  descer até o inferno, ele encontra o capanga do 
- Antagonista
+Antagonista
  , o Mr. Dice. O mesmo, fala que para chegar até seu chefe, terá que duelar com ele ou dar meia volta, voltar para casa e esquecer o irmão para sempre. O que ele irá fazer?
 VARIACOES
 0
@@ -428,7 +415,7 @@ Antagonista
 TEXTO
 Sem sua ajuda, 
 Protagonista
- desceu até o inferno sozinho e não conseguiu salvar seu irmão. Condenando a si mesmo a ser torturado pela eternidade enquanto seu irmão Caneco apenas asiste.
+ desceu até o inferno sozinho e não conseguiu salvar seu irmão. Condenando a si mesmo a ser torturado pela eternidade enquanto seu irmão Caneco apenas assiste.
 VARIACOES
 0
 0

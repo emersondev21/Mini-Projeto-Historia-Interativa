@@ -5,18 +5,18 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class FxmlApp extends Application {
-        public static void main(String[] args) {
-                launch(args);
-        }
+	public static void main(String[] args) {
+		launch(args);
+	}
 
-        @Override
-        public void start(Stage primaryStage) throws Exception {
-                FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("layout.fxml"));
-                Parent root = fxmlLoader.load();
-                Scene tela = new Scene(root);
+	@Override
+	public void start(Stage primaryStage) throws Exception {
+		FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("layout.fxml"));
+		Parent root = fxmlLoader.load();
+		Scene tela = new Scene(root);
 
-                primaryStage.setTitle("CUPHEAD DO PARAGUAY");
-                primaryStage.setScene(tela);
-                primaryStage.show();
-         }
+		primaryStage.setTitle("cuphead.exe");
+		primaryStage.setScene(tela);
+		primaryStage.show();
+	}
 }

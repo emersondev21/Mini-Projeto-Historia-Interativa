@@ -44,6 +44,6 @@ public class CapituloImagem extends Capitulo{
         System.out.println(this.img);
         System.out.println("_______________________________________________________________________________________");
         System.out.println();
-        super.mostrar();
+        // super.mostrar();
     }
 }
