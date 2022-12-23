@@ -1,6 +1,6 @@
 ## Getting Started
 
-Neste projeto, temos um sistema de história interativa que utilisa mecanismos de leituras de arquivos e escolhas feitas pelo usuário.
+Neste projeto, temos um sistema de história interativa que utiliza mecanismos de leituras de arquivos e escolhas feitas pelo usuário.
 
 ## Folder Structure
 
